@@ -1,0 +1,23 @@
+.cir1 {
+  animation: spin-around 4s 0.5s 4 alternate;
+}
+@keyframes spin-around {
+  10% {
+    fill:purple;
+    transform: rotate(45deg);
+  }
+  25% {
+    fill: beige;
+  }
+  50% {
+    transform:translate(100px, 200px);
+    fill:yellow;
+  }
+  75% {
+    transform: skewX(2);
+    background-color: cadetblue;
+  }
+  100% {
+    translate(0 100);
+  }
+}
