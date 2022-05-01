@@ -1,5 +1,0 @@
-#! /bin/fish
-
-names=(mahdi ali hossein "amir ali" tala)
-
-echo names
